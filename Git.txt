@@ -1,0 +1,162 @@
+
+vikasg@ADMINIB-8HIM1KS MINGW64 ~
+$ pwd
+/c/Users/IBM_ADMIN
+
+vikasg@ADMINIB-8HIM1KS MINGW64 ~
+$ cd C:\Vikas\SpringBoot
+bash: cd: C:VikasSpringBoot: No such file or directory
+
+vikasg@ADMINIB-8HIM1KS MINGW64 ~
+$
+
+
+vikasg@ADMINIB-8HIM1KS MINGW64 ~
+$
+
+vikasg@ADMINIB-8HIM1KS MINGW64 ~
+$ cd /c/Vikas/SpringBoot
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot
+$ cd student
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student
+$ git init
+Initialized empty Git repository in C:/Vikas/SpringBoot/student/.git/
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .mvn/
+        mvnw
+        mvnw.cmd
+        pom.xml
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$
+
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git add .
+warning: LF will be replaced by CRLF in mvnw.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in mvnw.cmd.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main/java/com/gupta/learning/StudentApplication.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test/java/com/gupta/learning/StudentApplicationTests.java.
+The file will have its original line endings in your working directory.
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .mvn/wrapper/maven-wrapper.jar
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/gupta/learning/StudentApplication.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/gupta/learning/StudentApplicationTests.java
+
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git commit
+
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <vikasg@ADMINIB-8HIM1KS.(none)>) not allowed
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ ^C
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git config --global user.email "mevikasg@gmail.com"
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git config --global user.name "Vikas Gupta"
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Users/IBM_ADMIN/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.email=mevikasg@gmail.com
+user.name=Vikas Gupta
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+core.hidedotfiles=dotGitOnly
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git commit -m "my first commit"
+[master (root-commit) c474dac] my first commit
+warning: LF will be replaced by CRLF in mvnw.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in mvnw.cmd.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main/java/com/gupta/learning/StudentApplication.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test/java/com/gupta/learning/StudentApplicationTests.java.
+The file will have its original line endings in your working directory.
+ 8 files changed, 496 insertions(+)
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/gupta/learning/StudentApplication.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/gupta/learning/StudentApplicationTests.java
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+vikasg@ADMINIB-8HIM1KS MINGW64 /c/Vikas/SpringBoot/student (master)
